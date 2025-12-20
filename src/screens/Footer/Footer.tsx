@@ -23,12 +23,12 @@ const decorativeImages = [
   },
   {
     src: "/group-15.png",
-    className: "absolute top-[767px] left-[556px] w-[217px] h-[106px]",
+    className: "absolute top-[39.948vw] left-[28.958vw] w-[11.302vw] h-[5.521vw]",
     alt: "Decorative group",
   },
   {
     src: "/group-16.png",
-    className: "absolute top-[831px] left-[1122px] w-[217px] h-[106px]",
+    className: "absolute top-[43.281vw] left-[58.438vw] w-[11.302vw] h-[5.521vw]",
     alt: "Decorative group",
   },
   {
@@ -38,82 +38,187 @@ const decorativeImages = [
   },
   {
     src: "/group-13.png",
-    className: "absolute top-[893px] left-[1046px] w-[310px] h-[151px]",
+    className: "absolute top-[46.51vw] left-[54.479vw] w-[16.146vw] h-[7.865vw]",
     alt: "Decorative group",
   },
   {
     src: "/group-14.png",
-    className: "absolute top-[794px] left-[608px] w-[380px] h-[185px]",
+    className: "absolute top-[41.354vw] left-[31.667vw] w-[19.792vw] h-[9.635vw]",
     alt: "Decorative group",
   },
+  // Mountain Right (Group 3) Individual Vectors
   {
-    src: "/group-3.png",
-    className: "absolute top-[158px] left-[1166px] w-[754px] h-[922px]",
-    alt: "Mountain right",
+    src: "/mountain-right-vector-5.svg",
+    className: "absolute w-[23.65vw] h-[41.56vw]",
+    style: { top: "9.06vw", left: "68.28vw" }, // 158+16, 1166+145
+    alt: "Mountain Element",
+    group: "right",
   },
   {
-    src: "/group-4.png",
-    className: "absolute top-[138px] left-0 w-[720px] h-[942px]",
-    alt: "Mountain left",
+    src: "/mountain-right-vector-4.svg",
+    className: "absolute w-[35.78vw] h-[43.12vw]",
+    style: { top: "15.18vw", left: "60.78vw" }, // 158+133.5, 1166+1
+    alt: "Mountain Element",
+    group: "right",
+  },
+  {
+    src: "/mountain-right-vector-1.svg",
+    className: "absolute w-[26.67vw] h-[42.55vw]",
+    style: { top: "19.38vw", left: "60.73vw" }, // 158+214, 1166+0
+    alt: "Mountain Element",
+    group: "right",
+  },
+  {
+    src: "/mountain-right-vector-8.svg",
+    className: "absolute w-[26.2vw] h-[42.19vw]",
+    style: { top: "8.23vw", left: "81.72vw" }, // 158+0, 1166+373
+    alt: "Mountain Element",
+    group: "right",
+  },
+  {
+    src: "/mountain-right-vector-2.svg",
+    className: "absolute w-[26.2vw] h-[42.19vw]",
+    style: { top: "26.67vw", left: "66.35vw" }, // 158+354, 1166+108
+    alt: "Mountain Element",
+    group: "right",
+  },
+  {
+    src: "/mountain-right-vector-7.svg",
+    className: "absolute w-[26.2vw] h-[34.19vw]",
+    style: { top: "15.47vw", left: "84.17vw" }, // 158+139, 1166+450
+    alt: "Mountain Element",
+    group: "right",
+  },
+  {
+    src: "/mountain-right-vector-6.svg",
+    className: "absolute w-[26.67vw] h-[42.55vw]",
+    style: { top: "26.90vw", left: "75.31vw" }, // 158+358.5, 1166+280
+    alt: "Mountain Element",
+    group: "right",
+  },
+  {
+    src: "/mountain-right-vector-3.svg",
+    className: "absolute w-[26.67vw] h-[42.55vw]",
+    style: { top: "30.16vw", left: "75.94vw" }, // 158+421, 1166+292
+    alt: "Mountain Element",
+    group: "right",
+  },
+
+  // Mountain Left (Group 4) Individual Vectors
+  {
+    src: "/mountain-left-vector-5.svg",
+    className: "absolute w-[23.65vw] h-[41.56vw]",
+    style: { top: "8.02vw", left: "3.75vw" }, // 138+16, -241+313
+    alt: "Mountain Element",
+    group: "left",
+  },
+  {
+    src: "/mountain-left-vector-4.svg",
+    className: "absolute w-[35.78vw] h-[43.12vw]",
+    style: { top: "14.14vw", left: "-1.77vw" }, // 138+133.5, -241+207
+    alt: "Mountain Element",
+    group: "left",
+  },
+  {
+    src: "/mountain-left-vector-1.svg",
+    className: "absolute w-[26.67vw] h-[42.55vw]",
+    style: { top: "18.33vw", left: "8.44vw" }, // 138+214, -241+403
+    alt: "Mountain Element",
+    group: "left",
+  },
+  {
+    src: "/mountain-left-vector-8.svg",
+    className: "absolute w-[26.2vw] h-[42.19vw]",
+    style: { top: "7.19vw", left: "-8.13vw" }, // 138+0, -241+85
+    alt: "Mountain Element",
+    group: "left",
+  },
+  {
+    src: "/mountain-left-vector-2.svg",
+    className: "absolute w-[26.2vw] h-[42.19vw]",
+    style: { top: "25.63vw", left: "5.68vw" }, // 138+354, -241+350
+    alt: "Mountain Element",
+    group: "left",
+  },
+  {
+    src: "/mountain-left-vector-7.svg",
+    className: "absolute w-[26.2vw] h-[34.19vw]",
+    style: { top: "14.43vw", left: "-12.55vw" }, // 138+139, -241+0
+    alt: "Mountain Element",
+    group: "left",
+  },
+  {
+    src: "/mountain-left-vector-6.svg",
+    className: "absolute w-[26.67vw] h-[42.55vw]",
+    style: { top: "25.86vw", left: "-6.15vw" }, // 138+358.5, -241+123
+    alt: "Mountain Element",
+    group: "left",
+  },
+  {
+    src: "/mountain-left-vector-3.svg",
+    className: "absolute w-[26.67vw] h-[42.55vw]",
+    style: { top: "29.11vw", left: "-6.77vw" }, // 138+421, -241+111
+    alt: "Mountain Element",
+    group: "left",
   },
   {
     src: "/vector-9.svg",
-    className: "absolute top-[624px] left-[-72px] w-[646px] h-[790px]",
-    alt: "Cloud decoration",
+    className: "absolute top-[32.5vw] left-[-3.75vw] w-[33.646vw] h-[41.146vw]",
+    alt: "Foreground Mountain",
   },
   {
     src: "/vector-12.svg",
-    className: "absolute top-[727px] left-[1144px] w-[830px] h-[790px]",
-    alt: "Cloud decoration",
+    className: "absolute top-[37.865vw] left-[59.583vw] w-[43.229vw] h-[41.146vw]",
+    alt: "Foreground Mountain",
   },
   {
     src: "/vector-11.svg",
-    className: "absolute top-[706px] left-[-50px] w-[762px] h-[791px]",
-    alt: "Cloud decoration",
+    className: "absolute top-[36.771vw] left-[-2.604vw] w-[39.688vw] h-[41.198vw]",
+    alt: "Foreground Mountain",
   },
   {
     src: "/vector-13.svg",
-    className: "absolute top-[870px] left-[997px] w-[939px] h-[853px]",
-    alt: "Cloud decoration",
+    className: "absolute top-[45.313vw] left-[51.927vw] w-[48.906vw] h-[44.427vw]",
+    alt: "Foreground Mountain",
   },
   {
     src: "/vector-10.svg",
-    className: "absolute top-[782px] left-[-23px] w-[511px] h-[773px]",
-    alt: "Cloud decoration",
+    className: "absolute top-[40.729vw] left-[-1.198vw] w-[26.615vw] h-[40.26vw]",
+    alt: "Foreground Mountain",
   },
   {
     src: "/group-5.png",
     className: "absolute w-[26.02%] h-[18.00%] top-[87.78%] left-[41.47%]",
-    alt: "Decorative group",
+    alt: "White cloud decoration",
   },
   {
     src: "/group-6.png",
     className: "absolute w-[26.02%] h-[18.00%] top-[85.37%] left-[72.98%]",
-    alt: "Decorative group",
+    alt: "White cloud decoration",
   },
   {
     src: "/group-7.png",
     className: "absolute w-[27.85%] h-[36.09%] top-[77.41%] left-[87.40%]",
-    alt: "Decorative group",
+    alt: "White cloud decoration",
   },
   {
     src: "/group-8.png",
     className: "absolute w-[26.02%] h-[18.00%] top-[82.50%] left-[24.39%]",
-    alt: "Decorative group",
+    alt: "White cloud decoration",
   },
   {
     src: "/group-9.png",
     className: "absolute w-[26.02%] h-[18.00%] top-[85.93%] left-0",
-    alt: "Decorative group",
+    alt: "White cloud decoration",
   },
   {
     src: "/group-10.png",
     className: "absolute w-[26.02%] h-[18.00%] top-[90.19%] left-[11.97%]",
-    alt: "Decorative group",
+    alt: "White cloud decoration",
   },
   {
     src: "/group-17.png",
-    className: "absolute top-[964px] left-[1270px] w-[325px] h-[116px]",
+    className: "absolute top-[50.208vw] left-[66.146vw] w-[16.927vw] h-[6.042vw]",
     alt: "Decorative group",
   },
 ];
@@ -148,33 +253,42 @@ const smallVectors = [
 
 export const Footer = (): JSX.Element => {
   return (
-    <footer className="relative w-full max-w-[1920px] h-[1080px] overflow-hidden [background:radial-gradient(50%_50%_at_50%_31%,rgba(255,255,255,1)_0%,rgba(252,209,166,1)_100%)]">
-      <div className="absolute top-[calc(50.00%_-_365px)] left-[calc(50.00%_-_232px)] w-[464px] h-[464px] bg-white rounded-[1000px]" />
+    <footer className="relative w-full max-w-[100vw] h-[56.25vw] overflow-hidden [background:radial-gradient(50%_50%_at_50%_31%,rgba(255,255,255,1)_0%,rgba(252,209,166,1)_100%)]">
+      <div className="absolute top-[calc(50.00%_-_19.01vw)] left-[calc(50.00%_-_12.083vw)] w-[24.167vw] h-[24.167vw] bg-white rounded-[52.083vw]" />
 
-      <section className="absolute top-[276px] left-[calc(50.00%_-_459px)] w-[921px] h-[290px]">
-        <h1 className="absolute top-[calc(50.00%_-_145px)] left-[calc(50.00%_-_460px)] [font-family:'Hitchcut-Regular',Helvetica] font-normal text-[#3c2923] text-[180.5px] tracking-[0] leading-[180.5px]">
-          <span className="leading-[162.5px]">
-            INCAND
-            <br />
-          </span>
-          <span className="text-[144.4px] leading-[130.0px]">ESCENCE</span>
-        </h1>
+      <section className="absolute top-[14.356vw] left-[26.094vw] w-[47.86vw] h-[15.104vw]">
+        <img
+          className="absolute top-0 left-0 w-[38.49vw] h-[15.104vw]"
+          alt="INCANDESCENCE"
+          src="/incand-text.svg"
+        />
 
         <img
-          className="absolute top-[26px] left-[755px] w-[164px] h-[253px]"
+          className="absolute top-[1.363vw] left-[39.31vw] w-[8.55vw] h-[13.162vw]"
           alt="Toucan logo"
-          src="/group-48096171.png"
+          src="/toucan-logo.svg"
         />
       </section>
 
-      {decorativeImages.map((image, index) => (
-        <img
-          key={`decorative-${index}`}
-          className={image.className}
-          alt={image.alt}
-          src={image.src}
-        />
-      ))}
+      {decorativeImages.map((image, index) => {
+        return (
+          <img
+            key={`decorative-${index}`}
+            className={`${image.className} ${
+              image.alt === "Cloud decoration"
+                ? "animate-float"
+                : image.alt === "White cloud decoration"
+                ? "animate-float-slow"
+                : image.alt.includes("Mountain")
+                ? "transition-transform duration-500 ease-out hover:scale-[1.03] hover:-translate-y-2 pointer-events-auto"
+                : ""
+            }`}
+            style={image.style}
+            alt={image.alt}
+            src={image.src}
+          />
+        );
+      })}
 
       {smallVectors.map((vector, index) => (
         <img
@@ -186,36 +300,36 @@ export const Footer = (): JSX.Element => {
       ))}
 
       <img
-        className="absolute top-[931px] left-[calc(50.00%_-_340px)] w-[680px] h-[92px]"
+        className="absolute top-[48.49vw] left-[calc(50.00%_-_17.708vw)] w-[35.417vw] h-[4.792vw]"
         alt="Bottom decoration"
         src="/frame-10.svg"
       />
 
       <img
-        className="absolute top-[116px] left-[1255px] w-[244px] h-[167px]"
+        className="absolute top-[6.042vw] left-[65.365vw] w-[12.708vw] h-[8.698vw]"
         alt="Top right decoration"
         src="/group-48096173.png"
       />
 
       <img
-        className="absolute h-[7.41%] top-[55.37%] left-[calc(50.00%_-_294px)] w-[588px]"
+        className="absolute h-[7.41%] top-[55.37%] left-[calc(50.00%_-_15.313vw)] w-[30.625vw]"
         alt="Tribal tapestry text"
         src="/vector-3.svg"
       />
 
-      <div className="absolute top-[715px] left-[calc(50.00%_-_93px)] h-[38px] flex items-center justify-center [font-family:'Hitchcut-Regular',Helvetica] font-normal text-[#482727] text-[32px] text-right tracking-[0] leading-[normal] whitespace-nowrap">
+      <div className="absolute top-[37.24vw] left-[calc(50.00%_-_4.844vw)] h-[1.979vw] flex items-center justify-center [font-family:'Hitchcut-Regular',Helvetica] font-normal text-[#482727] text-[1.667vw] text-right tracking-[0] leading-[normal] whitespace-nowrap">
         Contact Us
       </div>
 
       <nav
-        className="absolute top-[778px] left-[calc(50.00%_-_200px)] w-[399px] h-10 flex gap-20"
+        className="absolute top-[40.521vw] left-[calc(50.00%_-_10.417vw)] w-[20.781vw] h-[2.08vw] flex gap-[4.17vw]"
         aria-label="Social media links"
       >
         {socialIcons.map((icon, index) => (
           <a
             key={`social-${index}`}
             href="#"
-            className="w-[39.83px] h-[39.83px] hover:opacity-80 transition-opacity"
+            className="w-[2.074vw] h-[2.074vw] hover:opacity-80 transition-opacity"
             aria-label={icon.alt}
           >
             <img className="w-full h-full" alt={icon.alt} src={icon.src} />
@@ -223,26 +337,26 @@ export const Footer = (): JSX.Element => {
         ))}
       </nav>
 
-      <div className="absolute top-[97px] left-[calc(50.00%_-_878px)] w-[354px] h-[91px]">
-        <div className="absolute top-px left-[calc(50.00%_-_176px)] w-[352px] h-[89px] bg-black rounded-[62.41px] rotate-[-0.35deg]" />
+      <div className="absolute top-[5.052vw] left-[calc(50.00%_-_45.729vw)] w-[18.438vw] h-[4.74vw]">
+        <div className="absolute top-px left-[calc(50.00%_-_9.167vw)] w-[18.333vw] h-[4.635vw] bg-black rounded-[3.251vw] rotate-[-0.35deg]" />
 
         <Button
-          className="absolute top-0 left-[calc(50.00%_-_178px)] w-[355px] h-[91px] bg-[#751313] rounded-[62.41px] overflow-hidden border-[2.63px] border-solid border-black rotate-[-0.35deg] hover:bg-[#8a1616] transition-colors"
+          className="absolute top-0 left-[calc(50.00%_-_9.271vw)] w-[18.49vw] h-[4.74vw] bg-[#751313] rounded-[3.251vw] overflow-hidden border-[0.137vw] border-solid border-black rotate-[-0.35deg] hover:bg-[#8a1616] transition-colors"
           asChild
         >
           <a href="#" className="relative flex items-center justify-center">
-            <span className="[font-family:'Hitchcut-Regular',Helvetica] font-normal text-[#fcdbbb] text-[38.7px] tracking-[0] leading-[normal] whitespace-nowrap">
+            <span className="[font-family:'Hitchcut-Regular',Helvetica] font-normal text-[#fcdbbb] text-[2.016vw] tracking-[0] leading-[normal] whitespace-nowrap">
               BROCHURE
             </span>
 
             <img
-              className="absolute -top-0.5 left-0 w-[74px] h-[91px] rotate-[0.35deg]"
+              className="absolute -top-[0.10vw] left-0 w-[3.854vw] h-[4.74vw] rotate-[0.35deg]"
               alt="Left frame decoration"
               src="/frame-48096166.svg"
             />
 
             <img
-              className="absolute top-0 left-[279px] w-[73px] h-[91px] rotate-[0.35deg]"
+              className="absolute top-0 left-[14.531vw] w-[3.802vw] h-[4.74vw] rotate-[0.35deg]"
               alt="Right frame decoration"
               src="/frame-48096167.svg"
             />
@@ -250,14 +364,14 @@ export const Footer = (): JSX.Element => {
         </Button>
       </div>
 
-      <div className="absolute top-[988px] left-[calc(50.00%_+_611px)] w-[336px] h-[119px]">
+      <div className="absolute top-[51.458vw] left-[calc(50.00%_+_31.823vw)] w-[17.5vw] h-[6.198vw]">
         <img
-          className="absolute top-0 left-[202px] w-[132px] h-[92px] object-cover"
+          className="absolute top-0 left-[10.521vw] w-[6.875vw] h-[4.792vw] object-cover"
           alt="GDG logo"
           src="/https---lottiefiles-com-animations-gdsc-logo-dokvnu0d2f.png"
         />
 
-        <p className="absolute top-[35px] left-0 w-[233px] h-[30px] flex items-center justify-center [font-family:'Inter',Helvetica] font-normal text-black text-[15px] text-center tracking-[0] leading-[15px]">
+        <p className="absolute top-[1.823vw] left-0 w-[12.135vw] h-[1.563vw] flex items-center justify-center [font-family:'Inter',Helvetica] font-normal text-black text-[0.781vw] text-center tracking-[0] leading-[0.781vw]">
           <span className="font-semibold">MADE IN COLLABORATION WITH </span>
           <span className="font-extrabold">GDG NIT SILCHAR</span>
         </p>
