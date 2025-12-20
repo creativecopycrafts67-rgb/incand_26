@@ -1,5 +1,6 @@
 import React from "react";
-import { Button } from "../../components/ui/button";
+import { MountainVector } from "../../components/MountainVector";
+import { Brochure } from "../../components/Brochure";
 
 const socialIcons = [
   { src: "/social-icons-3.svg", alt: "Instagram" },
@@ -251,6 +252,20 @@ const smallVectors = [
   },
 ];
 
+const getCloudAnimation = (index: number) => {
+  const animations = [
+    "animate-float",
+    "animate-float-slow",
+    "animate-float-fast",
+    "animate-float-reverse",
+    "animate-float-large",
+    "animate-float-large-reverse",
+    "animate-float-horizontal",
+  ];
+  // Use a pseudo-random selection based on index to keep it consistent
+  return animations[index % animations.length];
+};
+
 export const Footer = (): JSX.Element => {
   return (
     <footer className="relative w-full max-w-[100vw] h-[56.25vw] overflow-hidden [background:radial-gradient(50%_50%_at_50%_31%,rgba(255,255,255,1)_0%,rgba(252,209,166,1)_100%)]">
@@ -271,16 +286,26 @@ export const Footer = (): JSX.Element => {
       </section>
 
       {decorativeImages.map((image, index) => {
+        if (image.alt === "Mountain Element" || image.alt === "Foreground Mountain") {
+          return (
+            <MountainVector
+              key={`decorative-${index}`}
+              className={`${image.className} transition-transform duration-500 ease-out hover:scale-[1.03] hover:-translate-y-2`}
+              style={image.style}
+              alt={image.alt}
+              src={image.src}
+            />
+          );
+        }
+
         return (
           <img
             key={`decorative-${index}`}
             className={`${image.className} ${
-              image.alt === "Cloud decoration"
-                ? "animate-float"
-                : image.alt === "White cloud decoration"
-                ? "animate-float-slow"
-                : image.alt.includes("Mountain")
-                ? "transition-transform duration-500 ease-out hover:scale-[1.03] hover:-translate-y-2 pointer-events-auto"
+              image.alt === "Cloud decoration" ||
+              image.alt === "White cloud decoration" ||
+              image.alt === "Decorative group"
+                ? getCloudAnimation(index)
                 : ""
             }`}
             style={image.style}
@@ -317,7 +342,7 @@ export const Footer = (): JSX.Element => {
         src="/vector-3.svg"
       />
 
-      <div className="absolute top-[37.24vw] left-[calc(50.00%_-_4.844vw)] h-[1.979vw] flex items-center justify-center [font-family:'Hitchcut-Regular',Helvetica] font-normal text-[#482727] text-[1.667vw] text-right tracking-[0] leading-[normal] whitespace-nowrap">
+      <div className="absolute top-[37.24vw] left-[calc(50.00%_-_4.844vw)] h-[1.979vw] flex items-center justify-center font-normal text-[#482727] text-[1.667vw] text-right tracking-[0] leading-[normal] whitespace-nowrap" style={{ fontFamily: "'Russo One', sans-serif" }}>
         Contact Us
       </div>
 
@@ -337,44 +362,16 @@ export const Footer = (): JSX.Element => {
         ))}
       </nav>
 
-      <div className="absolute top-[5.052vw] left-[calc(50.00%_-_45.729vw)] w-[18.438vw] h-[4.74vw]">
-        <div className="absolute top-px left-[calc(50.00%_-_9.167vw)] w-[18.333vw] h-[4.635vw] bg-black rounded-[3.251vw] rotate-[-0.35deg]" />
-
-        <Button
-          className="absolute top-0 left-[calc(50.00%_-_9.271vw)] w-[18.49vw] h-[4.74vw] bg-[#751313] rounded-[3.251vw] overflow-hidden border-[0.137vw] border-solid border-black rotate-[-0.35deg] hover:bg-[#8a1616] transition-colors"
-          asChild
-        >
-          <a href="#" className="relative flex items-center justify-center">
-            <span className="[font-family:'Hitchcut-Regular',Helvetica] font-normal text-[#fcdbbb] text-[2.016vw] tracking-[0] leading-[normal] whitespace-nowrap">
-              BROCHURE
-            </span>
-
-            <img
-              className="absolute -top-[0.10vw] left-0 w-[3.854vw] h-[4.74vw] rotate-[0.35deg]"
-              alt="Left frame decoration"
-              src="/frame-48096166.svg"
-            />
-
-            <img
-              className="absolute top-0 left-[14.531vw] w-[3.802vw] h-[4.74vw] rotate-[0.35deg]"
-              alt="Right frame decoration"
-              src="/frame-48096167.svg"
-            />
-          </a>
-        </Button>
+      <div className="absolute top-[5.052vw] left-[calc(50.00%_-_45.729vw)]">
+        <Brochure className="origin-top-left scale-[0.8] 2xl:scale-100" />
       </div>
 
       <div className="absolute top-[51.458vw] left-[calc(50.00%_+_31.823vw)] w-[17.5vw] h-[6.198vw]">
         <img
-          className="absolute top-0 left-[10.521vw] w-[6.875vw] h-[4.792vw] object-cover"
-          alt="GDG logo"
-          src="/https---lottiefiles-com-animations-gdsc-logo-dokvnu0d2f.png"
+          className="absolute top-0 left-0 w-[17.40vw] h-[6.20vw]"
+          alt="Made in collaboration with GDG NIT Silchar"
+          src="/group-48096170.svg"
         />
-
-        <p className="absolute top-[1.823vw] left-0 w-[12.135vw] h-[1.563vw] flex items-center justify-center [font-family:'Inter',Helvetica] font-normal text-black text-[0.781vw] text-center tracking-[0] leading-[0.781vw]">
-          <span className="font-semibold">MADE IN COLLABORATION WITH </span>
-          <span className="font-extrabold">GDG NIT SILCHAR</span>
-        </p>
       </div>
     </footer>
   );
