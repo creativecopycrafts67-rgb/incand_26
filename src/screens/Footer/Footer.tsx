@@ -1,46 +1,81 @@
 import { MountainVector } from "../../components/MountainVector";
 import { Brochure } from "../../components/Brochure";
 
+// Social Icons
+import socialIcon3 from "../../assets/images/social-icons-3.svg";
+import socialIcon from "../../assets/images/social-icons.svg";
+import socialIcon2 from "../../assets/images/social-icons-2.svg";
+import socialIcon1 from "../../assets/images/social-icons-1.svg";
+
+// Decorative Groups
+import group from "../../assets/images/group.png";
+import group1 from "../../assets/images/group-1.png";
+import group15 from "../../assets/images/group-15.png";
+import group16 from "../../assets/images/group-16.png";
+import group2 from "../../assets/images/group-2.png";
+import group13 from "../../assets/images/group-13.png";
+import group14 from "../../assets/images/group-14.png";
+import group5 from "../../assets/images/group-5.png";
+import group6 from "../../assets/images/group-6.png";
+import group7 from "../../assets/images/group-7.png";
+import group8 from "../../assets/images/group-8.png";
+import group9 from "../../assets/images/group-9.png";
+import group10 from "../../assets/images/group-10.png";
+import group17 from "../../assets/images/group-17.png";
+
+// Vectors and Logos
+import vector1 from "../../assets/images/vector-1.svg";
+import vector5 from "../../assets/images/vector-5.svg";
+import vector from "../../assets/images/vector.svg";
+import vector4 from "../../assets/images/vector-4.svg";
+import vector2 from "../../assets/images/vector-2.svg";
+import vector3 from "../../assets/images/vector-3.svg";
+import frame10 from "../../assets/images/frame-10.svg";
+import incandText from "../../assets/images/incand-text.svg";
+import toucanLogo from "../../assets/images/toucan-logo.svg";
+import group48096173 from "../../assets/images/group-48096173.png";
+import group48096170 from "../../assets/images/group-48096170.svg";
+
 const socialIcons = [
-  { src: "/social-icons-3.svg", alt: "Instagram" },
-  { src: "/social-icons.svg", alt: "LinkedIn" },
-  { src: "/social-icons-2.svg", alt: "Facebook" },
-  { src: "/social-icons-1.svg", alt: "Twitter" },
+  { src: socialIcon3, alt: "Instagram" },
+  { src: socialIcon, alt: "LinkedIn" },
+  { src: socialIcon2, alt: "Facebook" },
+  { src: socialIcon1, alt: "Twitter" },
 ];
 
 const decorativeImages = [
   {
-    src: "/group.png",
+    src: group,
     className: "absolute w-[17.99%] h-[12.44%] top-[66.93%] left-[32.78%]",
     alt: "Decorative group",
   },
   {
-    src: "/group-1.png",
+    src: group1,
     className: "absolute w-[17.99%] h-[12.44%] top-[67.12%] left-[52.67%]",
     alt: "Decorative group",
   },
   {
-    src: "/group-15.png",
+    src: group15,
     className: "absolute top-[39.948vw] left-[28.958vw] w-[11.302vw] h-[5.521vw]",
     alt: "Decorative group",
   },
   {
-    src: "/group-16.png",
+    src: group16,
     className: "absolute top-[43.281vw] left-[58.438vw] w-[11.302vw] h-[5.521vw]",
     alt: "Decorative group",
   },
   {
-    src: "/group-2.png",
+    src: group2,
     className: "absolute w-[26.02%] h-[18.00%] top-[72.87%] left-[37.41%]",
     alt: "Decorative group",
   },
   {
-    src: "/group-13.png",
+    src: group13,
     className: "absolute top-[46.51vw] left-[54.479vw] w-[16.146vw] h-[7.865vw]",
     alt: "Decorative group",
   },
   {
-    src: "/group-14.png",
+    src: group14,
     className: "absolute top-[41.354vw] left-[31.667vw] w-[19.792vw] h-[9.635vw]",
     alt: "Decorative group",
   },
@@ -185,37 +220,37 @@ const decorativeImages = [
     alt: "Foreground Mountain",
   },
   {
-    src: "/group-5.png",
+    src: group5,
     className: "absolute w-[26.02%] h-[18.00%] top-[87.78%] left-[41.47%]",
     alt: "White cloud decoration",
   },
   {
-    src: "/group-6.png",
+    src: group6,
     className: "absolute w-[26.02%] h-[18.00%] top-[85.37%] left-[72.98%]",
     alt: "White cloud decoration",
   },
   {
-    src: "/group-7.png",
+    src: group7,
     className: "absolute w-[27.85%] h-[36.09%] top-[77.41%] left-[87.40%]",
     alt: "White cloud decoration",
   },
   {
-    src: "/group-8.png",
+    src: group8,
     className: "absolute w-[26.02%] h-[18.00%] top-[82.50%] left-[24.39%]",
     alt: "White cloud decoration",
   },
   {
-    src: "/group-9.png",
+    src: group9,
     className: "absolute w-[26.02%] h-[18.00%] top-[85.93%] left-0",
     alt: "White cloud decoration",
   },
   {
-    src: "/group-10.png",
+    src: group10,
     className: "absolute w-[26.02%] h-[18.00%] top-[90.19%] left-[11.97%]",
     alt: "White cloud decoration",
   },
   {
-    src: "/group-17.png",
+    src: group17,
     className: "absolute top-[50.208vw] left-[66.146vw] w-[16.927vw] h-[6.042vw]",
     alt: "Decorative group",
   },
@@ -223,27 +258,27 @@ const decorativeImages = [
 
 const smallVectors = [
   {
-    src: "/vector-1.svg",
+    src: vector1,
     className: "absolute w-[2.65%] h-[3.61%] top-[56.48%] left-[70.73%]",
     alt: "Star decoration",
   },
   {
-    src: "/vector-5.svg",
+    src: vector5,
     className: "absolute w-[3.72%] h-[5.07%] top-[51.67%] left-[75.31%]",
     alt: "Star decoration",
   },
   {
-    src: "/vector.svg",
+    src: vector,
     className: "absolute w-0 h-[3.81%] top-[19.35%] left-[27.81%]",
     alt: "Bird decoration",
   },
   {
-    src: "/vector-4.svg",
+    src: vector4,
     className: "absolute w-0 h-0 top-[22.51%] left-[23.59%]",
     alt: "Bird decoration",
   },
   {
-    src: "/vector-2.svg",
+    src: vector2,
     className: "absolute w-[2.12%] h-[2.68%] top-[18.89%] left-[25.16%]",
     alt: "Bird decoration",
   },
@@ -274,14 +309,14 @@ export const Footer = (): JSX.Element => {
           className="absolute top-0 left-0 w-[38.49vw] h-[15.104vw] select-none"
           alt="INCANDESCENCE"
           draggable={false}
-          src="/incand-text.svg"
+          src={incandText}
         />
 
         <img
           className="absolute top-[1.363vw] left-[39.31vw] w-[8.55vw] h-[13.162vw] select-none"
           alt="Toucan logo"
           draggable={false}
-          src="/toucan-logo.svg"
+          src={toucanLogo}
         />
       </section>
 
@@ -330,21 +365,21 @@ export const Footer = (): JSX.Element => {
         className="absolute top-[48.49vw] left-[calc(50.00%_-_17.708vw)] w-[35.417vw] h-[4.792vw] select-none"
         alt="Bottom decoration"
         draggable={false}
-        src="/frame-10.svg"
+        src={frame10}
       />
 
       <img
         className="absolute top-[6.042vw] left-[65.365vw] w-[12.708vw] h-[8.698vw] select-none"
         alt="Top right decoration"
         draggable={false}
-        src="/group-48096173.png"
+        src={group48096173}
       />
 
       <img
         className="absolute h-[7.41%] top-[55.37%] left-[calc(50.00%_-_15.313vw)] w-[30.625vw] select-none"
         alt="Tribal tapestry text"
         draggable={false}
-        src="/vector-3.svg"
+        src={vector3}
       />
 
       <div className="absolute top-[37.24vw] left-[calc(50.00%_-_4.844vw)] h-[1.979vw] flex items-center justify-center font-normal text-[#482727] text-[1.667vw] text-right tracking-[0] leading-[normal] whitespace-nowrap select-none" style={{ fontFamily: "'Russo One', sans-serif" }}>
@@ -376,7 +411,7 @@ export const Footer = (): JSX.Element => {
           className="absolute top-0 left-0 w-[17.40vw] h-[6.20vw] select-none"
           alt="Made in collaboration with GDG NIT Silchar"
           draggable={false}
-          src="/group-48096170.svg"
+          src={group48096170}
         />
       </div>
       </div>
