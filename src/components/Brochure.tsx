@@ -13,31 +13,31 @@ export const Brochure = React.forwardRef<HTMLAnchorElement, BrochureProps>(
       <a
         ref={ref}
         href="#"
-        className={cn("group relative block w-[403px] h-[104px] cursor-pointer transition-transform duration-700 ease-in-out hover:-rotate-3", className)}
+        className={cn("group relative block w-[21vw] h-[5.42vw] cursor-pointer transition-transform duration-700 ease-in-out hover:-rotate-3 select-none", className)}
         style={style}
         {...props}
       >
         {/* Shadow Layer */}
         <div 
-            className="absolute bg-black rounded-[71px] transition-all duration-300 ease-out pointer-events-none
-                       top-0 left-[1px] w-[402px] h-[103px]
-                       group-hover:-top-[29px] group-hover:-left-[14px] group-hover:w-[516px] group-hover:h-[169px]
-                       group-hover:bg-[#A25D5D] group-hover:border-[3px] group-hover:border-black group-hover:rounded-[89px]"
+            className="absolute bg-black rounded-[3.7vw] transition-all duration-300 ease-out pointer-events-none
+                       top-0 left-[0.05vw] w-[20.94vw] h-[5.36vw]
+                       group-hover:-top-[1.51vw] group-hover:-left-[0.73vw] group-hover:w-[26.88vw] group-hover:h-[8.8vw]
+                       group-hover:bg-[#A25D5D] group-hover:border-[0.16vw] group-hover:border-black group-hover:rounded-[4.64vw]"
         />
         
         {/* Main Layer */}
         <div 
-            className="absolute bg-[#751313] border-[3px] border-black rounded-[71px] transition-all duration-300 ease-out
-                       top-0 left-0 w-[402px] h-[103px]
-                       group-hover:-top-[46px] group-hover:-left-[4px] group-hover:w-[515px] group-hover:h-[169px]
-                       group-hover:rounded-[89px]
+            className="absolute bg-[#751313] border-[0.16vw] border-black rounded-[3.7vw] transition-all duration-300 ease-out
+                       top-0 left-0 w-[20.94vw] h-[5.36vw]
+                       group-hover:-top-[2.4vw] group-hover:-left-[0.21vw] group-hover:w-[26.82vw] group-hover:h-[8.8vw]
+                       group-hover:rounded-[4.64vw]
                        overflow-hidden z-10"
         >
              {/* Text */}
              <span 
-                className="absolute font-sans transition-all duration-300 ease-out z-20 whitespace-nowrap tracking-wider
-                           left-[67px] top-[24px] text-[#FCDBBB] text-[44px] leading-[1.2]
-                           group-hover:left-[87px] group-hover:top-[37px] group-hover:text-white group-hover:text-[55px]"
+                className="absolute font-sans transition-all duration-300 ease-out z-20 whitespace-nowrap tracking-wider select-none
+                           left-[3.49vw] top-[1.25vw] text-[#FCDBBB] text-[2.29vw] leading-[1.2]
+                           group-hover:left-[4.53vw] group-hover:top-[1.93vw] group-hover:text-white group-hover:text-[2.86vw]"
                 style={{ fontFamily: "'Russo One', sans-serif" }}
              >
                BROCHURE
@@ -47,18 +47,20 @@ export const Brochure = React.forwardRef<HTMLAnchorElement, BrochureProps>(
              <img 
                 src={brochureIcon1} 
                 alt="" 
-                className="absolute transition-all duration-300 ease-out max-w-none z-30 pointer-events-none
-                           -left-[49px] -top-[48px] w-[133px] h-[219px]
-                           group-hover:-left-[66px] group-hover:-top-[29px] group-hover:w-[189px] group-hover:h-[288px]"
+                draggable={false}
+                className="absolute transition-all duration-300 ease-out max-w-none z-30 pointer-events-none select-none
+                           -left-[2.55vw] -top-[2.5vw] w-[6.93vw] h-[11.41vw]
+                           group-hover:-left-[3.44vw] group-hover:-top-[1.51vw] group-hover:w-[9.84vw] group-hover:h-[15vw]"
              />
 
              {/* Image 2 (Right) */}
              <img 
                 src={brochureIcon2} 
                 alt="" 
-                className="absolute transition-all duration-300 ease-out max-w-none z-30 pointer-events-none
-                           left-[318px] -top-[50px] w-[133px] h-[219px]
-                           group-hover:left-[395px] group-hover:-top-[68px] group-hover:w-[189px] group-hover:h-[288px]"
+                draggable={false}
+                className="absolute transition-all duration-300 ease-out max-w-none z-30 pointer-events-none select-none
+                           left-[16.56vw] -top-[2.6vw] w-[6.93vw] h-[11.41vw]
+                           group-hover:left-[20.57vw] group-hover:-top-[3.54vw] group-hover:w-[9.84vw] group-hover:h-[15vw]"
              />
         </div>
       </a>

@@ -2,9 +2,10 @@ import React, { useMemo } from 'react';
 
 // Import all mountain SVGs as raw strings
 const mountainSvgs = import.meta.glob('/src/assets/mountains/*.svg', {
-  as: 'raw',
+  query: '?raw',
+  import: 'default',
   eager: true,
-});
+}) as Record<string, string>;
 
 interface MountainVectorProps {
   src: string; // The original src path, e.g., "/mountain-right-vector-5.svg"
@@ -60,7 +61,7 @@ export const MountainVector: React.FC<MountainVectorProps> = ({
 
   return (
     <div
-      className={className}
+      className={`${className || ''} select-none`}
       style={{
         ...style,
         pointerEvents: 'none', // Container ignores events

@@ -1,4 +1,3 @@
-import React from "react";
 import { MountainVector } from "../../components/MountainVector";
 import { Brochure } from "../../components/Brochure";
 
@@ -8,8 +7,6 @@ const socialIcons = [
   { src: "/social-icons-2.svg", alt: "Facebook" },
   { src: "/social-icons-1.svg", alt: "Twitter" },
 ];
-
-const bottomIcons = [{ src: "/frame-10.svg", alt: "Bottom icon 1" }];
 
 const decorativeImages = [
   {
@@ -268,19 +265,22 @@ const getCloudAnimation = (index: number) => {
 
 export const Footer = (): JSX.Element => {
   return (
-    <footer className="relative w-full max-w-[100vw] h-[56.25vw] overflow-hidden [background:radial-gradient(50%_50%_at_50%_31%,rgba(255,255,255,1)_0%,rgba(252,209,166,1)_100%)]">
+    <footer className="relative w-screen h-screen overflow-hidden select-none [background:radial-gradient(50%_50%_at_50%_31%,rgba(255,255,255,1)_0%,rgba(252,209,166,1)_100%)]">
+      <div className="absolute bottom-0 left-0 w-full h-[56.25vw]">
       <div className="absolute top-[calc(50.00%_-_19.01vw)] left-[calc(50.00%_-_12.083vw)] w-[24.167vw] h-[24.167vw] bg-white rounded-[52.083vw]" />
 
       <section className="absolute top-[14.356vw] left-[26.094vw] w-[47.86vw] h-[15.104vw]">
         <img
-          className="absolute top-0 left-0 w-[38.49vw] h-[15.104vw]"
+          className="absolute top-0 left-0 w-[38.49vw] h-[15.104vw] select-none"
           alt="INCANDESCENCE"
+          draggable={false}
           src="/incand-text.svg"
         />
 
         <img
-          className="absolute top-[1.363vw] left-[39.31vw] w-[8.55vw] h-[13.162vw]"
+          className="absolute top-[1.363vw] left-[39.31vw] w-[8.55vw] h-[13.162vw] select-none"
           alt="Toucan logo"
+          draggable={false}
           src="/toucan-logo.svg"
         />
       </section>
@@ -290,7 +290,7 @@ export const Footer = (): JSX.Element => {
           return (
             <MountainVector
               key={`decorative-${index}`}
-              className={`${image.className} transition-transform duration-500 ease-out hover:scale-[1.03] hover:-translate-y-2`}
+              className={`${image.className} transition-transform duration-500 ease-out hover:scale-[1.03] hover:-translate-y-2 select-none`}
               style={image.style}
               alt={image.alt}
               src={image.src}
@@ -301,7 +301,8 @@ export const Footer = (): JSX.Element => {
         return (
           <img
             key={`decorative-${index}`}
-            className={`${image.className} ${
+            draggable={false}
+            className={`${image.className} select-none ${
               image.alt === "Cloud decoration" ||
               image.alt === "White cloud decoration" ||
               image.alt === "Decorative group"
@@ -318,31 +319,35 @@ export const Footer = (): JSX.Element => {
       {smallVectors.map((vector, index) => (
         <img
           key={`vector-${index}`}
-          className={vector.className}
+          className={`${vector.className} select-none`}
+          draggable={false}
           alt={vector.alt}
           src={vector.src}
         />
       ))}
 
       <img
-        className="absolute top-[48.49vw] left-[calc(50.00%_-_17.708vw)] w-[35.417vw] h-[4.792vw]"
+        className="absolute top-[48.49vw] left-[calc(50.00%_-_17.708vw)] w-[35.417vw] h-[4.792vw] select-none"
         alt="Bottom decoration"
+        draggable={false}
         src="/frame-10.svg"
       />
 
       <img
-        className="absolute top-[6.042vw] left-[65.365vw] w-[12.708vw] h-[8.698vw]"
+        className="absolute top-[6.042vw] left-[65.365vw] w-[12.708vw] h-[8.698vw] select-none"
         alt="Top right decoration"
+        draggable={false}
         src="/group-48096173.png"
       />
 
       <img
-        className="absolute h-[7.41%] top-[55.37%] left-[calc(50.00%_-_15.313vw)] w-[30.625vw]"
+        className="absolute h-[7.41%] top-[55.37%] left-[calc(50.00%_-_15.313vw)] w-[30.625vw] select-none"
         alt="Tribal tapestry text"
+        draggable={false}
         src="/vector-3.svg"
       />
 
-      <div className="absolute top-[37.24vw] left-[calc(50.00%_-_4.844vw)] h-[1.979vw] flex items-center justify-center font-normal text-[#482727] text-[1.667vw] text-right tracking-[0] leading-[normal] whitespace-nowrap" style={{ fontFamily: "'Russo One', sans-serif" }}>
+      <div className="absolute top-[37.24vw] left-[calc(50.00%_-_4.844vw)] h-[1.979vw] flex items-center justify-center font-normal text-[#482727] text-[1.667vw] text-right tracking-[0] leading-[normal] whitespace-nowrap select-none" style={{ fontFamily: "'Russo One', sans-serif" }}>
         Contact Us
       </div>
 
@@ -357,7 +362,7 @@ export const Footer = (): JSX.Element => {
             className="w-[2.074vw] h-[2.074vw] hover:opacity-80 transition-opacity"
             aria-label={icon.alt}
           >
-            <img className="w-full h-full" alt={icon.alt} src={icon.src} />
+            <img className="w-full h-full select-none" draggable={false} alt={icon.alt} src={icon.src} />
           </a>
         ))}
       </nav>
@@ -368,10 +373,12 @@ export const Footer = (): JSX.Element => {
 
       <div className="absolute top-[51.458vw] left-[calc(50.00%_+_31.823vw)] w-[17.5vw] h-[6.198vw]">
         <img
-          className="absolute top-0 left-0 w-[17.40vw] h-[6.20vw]"
+          className="absolute top-0 left-0 w-[17.40vw] h-[6.20vw] select-none"
           alt="Made in collaboration with GDG NIT Silchar"
+          draggable={false}
           src="/group-48096170.svg"
         />
+      </div>
       </div>
     </footer>
   );
