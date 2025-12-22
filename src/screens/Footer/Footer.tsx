@@ -56,12 +56,12 @@ const decorativeImages = [
   },
   {
     src: group15,
-    className: "absolute top-[39.948vw] left-[28.958vw] w-[11.302vw] h-[5.521vw]",
+    className: "absolute top-[71.02%] left-[28.958%] w-[11.302%] h-[9.82%]",
     alt: "Decorative group",
   },
   {
     src: group16,
-    className: "absolute top-[43.281vw] left-[58.438vw] w-[11.302vw] h-[5.521vw]",
+    className: "absolute top-[76.94%] left-[58.438%] w-[11.302%] h-[9.82%]",
     alt: "Decorative group",
   },
   {
@@ -71,68 +71,68 @@ const decorativeImages = [
   },
   {
     src: group13,
-    className: "absolute top-[46.51vw] left-[54.479vw] w-[16.146vw] h-[7.865vw]",
+    className: "absolute top-[82.68%] left-[54.479%] w-[16.146%] h-[13.98%]",
     alt: "Decorative group",
   },
   {
     src: group14,
-    className: "absolute top-[41.354vw] left-[31.667vw] w-[19.792vw] h-[9.635vw]",
+    className: "absolute top-[73.52%] left-[31.667%] w-[19.792%] h-[17.13%]",
     alt: "Decorative group",
   },
   // Mountain Right (Group 3) Individual Vectors
   {
     src: "/mountain-right-vector-5.svg",
-    className: "absolute w-[23.65vw] h-[41.56vw]",
-    style: { top: "9.06vw", left: "68.28vw" }, // 158+16, 1166+145
+    className: "absolute w-[23.65%] h-[73.88%]",
+    style: { top: "16.11%", left: "68.28%" }, // 158+16, 1166+145
     alt: "Mountain Element",
     group: "right",
   },
   {
     src: "/mountain-right-vector-4.svg",
-    className: "absolute w-[35.78vw] h-[43.12vw]",
-    style: { top: "15.18vw", left: "60.78vw" }, // 158+133.5, 1166+1
+    className: "absolute w-[35.78%] h-[76.66%]",
+    style: { top: "26.99%", left: "60.78%" }, // 158+133.5, 1166+1
     alt: "Mountain Element",
     group: "right",
   },
   {
     src: "/mountain-right-vector-1.svg",
-    className: "absolute w-[26.67vw] h-[42.55vw]",
-    style: { top: "19.38vw", left: "60.73vw" }, // 158+214, 1166+0
+    className: "absolute w-[26.67%] h-[75.64%]",
+    style: { top: "34.45%", left: "60.73%" }, // 158+214, 1166+0
     alt: "Mountain Element",
     group: "right",
   },
   {
     src: "/mountain-right-vector-8.svg",
-    className: "absolute w-[26.2vw] h-[42.19vw]",
-    style: { top: "8.23vw", left: "81.72vw" }, // 158+0, 1166+373
+    className: "absolute w-[26.2%] h-[75.00%]",
+    style: { top: "14.63%", left: "81.72%" }, // 158+0, 1166+373
     alt: "Mountain Element",
     group: "right",
   },
   {
     src: "/mountain-right-vector-2.svg",
-    className: "absolute w-[26.2vw] h-[42.19vw]",
-    style: { top: "26.67vw", left: "66.35vw" }, // 158+354, 1166+108
+    className: "absolute w-[26.2%] h-[75.00%]",
+    style: { top: "47.41%", left: "66.35%" }, // 158+354, 1166+108
     alt: "Mountain Element",
     group: "right",
   },
   {
     src: "/mountain-right-vector-7.svg",
-    className: "absolute w-[26.2vw] h-[34.19vw]",
-    style: { top: "15.47vw", left: "84.17vw" }, // 158+139, 1166+450
+    className: "absolute w-[26.2%] h-[60.78%]",
+    style: { top: "27.50%", left: "84.17%" }, // 158+139, 1166+450
     alt: "Mountain Element",
     group: "right",
   },
   {
     src: "/mountain-right-vector-6.svg",
-    className: "absolute w-[26.67vw] h-[42.55vw]",
-    style: { top: "26.90vw", left: "75.31vw" }, // 158+358.5, 1166+280
+    className: "absolute w-[26.67%] h-[75.64%]",
+    style: { top: "47.82%", left: "75.31%" }, // 158+358.5, 1166+280
     alt: "Mountain Element",
     group: "right",
   },
   {
     src: "/mountain-right-vector-3.svg",
-    className: "absolute w-[26.67vw] h-[42.55vw]",
-    style: { top: "30.16vw", left: "75.94vw" }, // 158+421, 1166+292
+    className: "absolute w-[26.67%] h-[75.64%]",
+    style: { top: "53.62%", left: "75.94%" }, // 158+421, 1166+292
     alt: "Mountain Element",
     group: "right",
   },
@@ -140,83 +140,83 @@ const decorativeImages = [
   // Mountain Left (Group 4) Individual Vectors
   {
     src: "/mountain-left-vector-5.svg",
-    className: "absolute w-[23.65vw] h-[41.56vw]",
-    style: { top: "8.02vw", left: "3.75vw" }, // 138+16, -241+313
+    className: "absolute w-[23.65%] h-[73.88%]",
+    style: { top: "14.26%", left: "3.75%" }, // 138+16, -241+313
     alt: "Mountain Element",
     group: "left",
   },
   {
     src: "/mountain-left-vector-4.svg",
-    className: "absolute w-[35.78vw] h-[43.12vw]",
-    style: { top: "14.14vw", left: "-1.77vw" }, // 138+133.5, -241+207
+    className: "absolute w-[35.78%] h-[76.66%]",
+    style: { top: "25.14%", left: "-1.77%" }, // 138+133.5, -241+207
     alt: "Mountain Element",
     group: "left",
   },
   {
     src: "/mountain-left-vector-1.svg",
-    className: "absolute w-[26.67vw] h-[42.55vw]",
-    style: { top: "18.33vw", left: "8.44vw" }, // 138+214, -241+403
+    className: "absolute w-[26.67%] h-[75.64%]",
+    style: { top: "32.59%", left: "8.44%" }, // 138+214, -241+403
     alt: "Mountain Element",
     group: "left",
   },
   {
     src: "/mountain-left-vector-8.svg",
-    className: "absolute w-[26.2vw] h-[42.19vw]",
-    style: { top: "7.19vw", left: "-8.13vw" }, // 138+0, -241+85
+    className: "absolute w-[26.2%] h-[75.00%]",
+    style: { top: "12.78%", left: "-8.13%" }, // 138+0, -241+85
     alt: "Mountain Element",
     group: "left",
   },
   {
     src: "/mountain-left-vector-2.svg",
-    className: "absolute w-[26.2vw] h-[42.19vw]",
-    style: { top: "25.63vw", left: "5.68vw" }, // 138+354, -241+350
+    className: "absolute w-[26.2%] h-[75.00%]",
+    style: { top: "45.56%", left: "5.68%" }, // 138+354, -241+350
     alt: "Mountain Element",
     group: "left",
   },
   {
     src: "/mountain-left-vector-7.svg",
-    className: "absolute w-[26.2vw] h-[34.19vw]",
-    style: { top: "14.43vw", left: "-12.55vw" }, // 138+139, -241+0
+    className: "absolute w-[26.2%] h-[60.78%]",
+    style: { top: "25.65%", left: "-12.55%" }, // 138+139, -241+0
     alt: "Mountain Element",
     group: "left",
   },
   {
     src: "/mountain-left-vector-6.svg",
-    className: "absolute w-[26.67vw] h-[42.55vw]",
-    style: { top: "25.86vw", left: "-6.15vw" }, // 138+358.5, -241+123
+    className: "absolute w-[26.67%] h-[75.64%]",
+    style: { top: "45.97%", left: "-6.15%" }, // 138+358.5, -241+123
     alt: "Mountain Element",
     group: "left",
   },
   {
     src: "/mountain-left-vector-3.svg",
-    className: "absolute w-[26.67vw] h-[42.55vw]",
-    style: { top: "29.11vw", left: "-6.77vw" }, // 138+421, -241+111
+    className: "absolute w-[26.67%] h-[75.64%]",
+    style: { top: "51.75%", left: "-6.77%" }, // 138+421, -241+111
     alt: "Mountain Element",
     group: "left",
   },
   {
     src: "/vector-9.svg",
-    className: "absolute top-[32.5vw] left-[-3.75vw] w-[33.646vw] h-[41.146vw]",
+    className: "absolute top-[57.78%] left-[-3.75%] w-[33.646%] h-[73.15%]",
     alt: "Foreground Mountain",
   },
   {
     src: "/vector-12.svg",
-    className: "absolute top-[37.865vw] left-[59.583vw] w-[43.229vw] h-[41.146vw]",
+    className: "absolute top-[67.32%] left-[59.583%] w-[43.229%] h-[73.15%]",
     alt: "Foreground Mountain",
   },
   {
     src: "/vector-11.svg",
-    className: "absolute top-[36.771vw] left-[-2.604vw] w-[39.688vw] h-[41.198vw]",
+    className: "absolute top-[65.37%] left-[-2.604%] w-[39.688%] h-[73.24%]",
     alt: "Foreground Mountain",
   },
   {
     src: "/vector-13.svg",
-    className: "absolute top-[45.313vw] left-[51.927vw] w-[48.906vw] h-[44.427vw]",
+    className: "absolute top-[80.56%] left-[51.927%] w-[48.906%] h-[78.98%]",
     alt: "Foreground Mountain",
   },
   {
     src: "/vector-10.svg",
-    className: "absolute top-[40.729vw] left-[-1.198vw] w-[26.615vw] h-[40.26vw]",
+    className: "absolute top-[72.41%] left-[-1.198%] w-[26.615%] h-[71.57%]",
     alt: "Foreground Mountain",
   },
   {
@@ -251,7 +251,7 @@ const decorativeImages = [
   },
   {
     src: group17,
-    className: "absolute top-[50.208vw] left-[66.146vw] w-[16.927vw] h-[6.042vw]",
+    className: "absolute top-[89.26%] left-[66.146%] w-[16.927%] h-[10.74%]",
     alt: "Decorative group",
   },
 ];
@@ -301,19 +301,19 @@ const getCloudAnimation = (index: number) => {
 export const Footer = (): JSX.Element => {
   return (
     <footer className="relative w-screen h-screen overflow-hidden select-none [background:radial-gradient(50%_50%_at_50%_31%,rgba(255,255,255,1)_0%,rgba(252,209,166,1)_100%)]">
-      <div className="absolute bottom-0 left-0 w-full h-[56.25vw]">
-      <div className="absolute top-[calc(50.00%_-_19.01vw)] left-[calc(50.00%_-_12.083vw)] w-[24.167vw] h-[24.167vw] bg-white rounded-[52.083vw]" />
+      <div className="absolute top-0 left-0 w-full h-full">
+      <div className="absolute top-[calc(50.00%_-_33.80%)] left-[calc(50.00%_-_12.083%)] w-[24.167%] h-[42.96%] bg-white rounded-[92.59%]" />
 
-      <section className="absolute top-[14.356vw] left-[26.094vw] w-[47.86vw] h-[15.104vw]">
+      <section className="absolute top-[25.52%] left-[26.094%] w-[47.86%] h-[26.85%]">
         <img
-          className="absolute top-0 left-0 w-[38.49vw] h-[15.104vw] select-none"
+          className="absolute top-0 left-0 w-[80.42%] h-[100%] select-none"
           alt="INCANDESCENCE"
           draggable={false}
           src={incandText}
         />
 
         <img
-          className="absolute top-[1.363vw] left-[39.31vw] w-[8.55vw] h-[13.162vw] select-none"
+          className="absolute top-[9.02%] left-[82.14%] w-[17.86%] h-[87.14%] select-none"
           alt="Toucan logo"
           draggable={false}
           src={toucanLogo}
@@ -362,32 +362,32 @@ export const Footer = (): JSX.Element => {
       ))}
 
       <img
-        className="absolute top-[48.49vw] left-[calc(50.00%_-_17.708vw)] w-[35.417vw] h-[4.792vw] select-none"
+        className="absolute top-[86.20%] left-[calc(50.00%_-_17.708%)] w-[35.417%] h-[8.52%] select-none"
         alt="Bottom decoration"
         draggable={false}
         src={frame10}
       />
 
       <img
-        className="absolute top-[6.042vw] left-[65.365vw] w-[12.708vw] h-[8.698vw] select-none"
+        className="absolute top-[10.74%] left-[65.365%] w-[12.708%] h-[15.46%] select-none"
         alt="Top right decoration"
         draggable={false}
         src={group48096173}
       />
 
       <img
-        className="absolute h-[7.41%] top-[55.37%] left-[calc(50.00%_-_15.313vw)] w-[30.625vw] select-none"
+        className="absolute h-[7.41%] top-[55.37%] left-[calc(50.00%_-_15.313%)] w-[30.625%] select-none"
         alt="Tribal tapestry text"
         draggable={false}
         src={vector3}
       />
 
-      <div className="absolute top-[37.24vw] left-[calc(50.00%_-_4.844vw)] h-[1.979vw] flex items-center justify-center font-normal text-[#482727] text-[1.667vw] text-right tracking-[0] leading-[normal] whitespace-nowrap select-none" style={{ fontFamily: "'Russo One', sans-serif" }}>
+      <div className="absolute top-[66.20%] left-[calc(50.00%_-_4.844%)] h-[3.52%] flex items-center justify-center font-normal text-[#482727] text-[2.96vh] text-right tracking-[0] leading-[normal] whitespace-nowrap select-none" style={{ fontFamily: "'Russo One', sans-serif" }}>
         Contact Us
       </div>
 
       <nav
-        className="absolute top-[40.521vw] left-[calc(50.00%_-_10.417vw)] w-[20.781vw] h-[2.08vw] flex gap-[4.17vw]"
+        className="absolute top-[72.04%] left-[calc(50.00%_-_10.417%)] w-[20.781%] h-[3.70%] flex gap-[4.17%]"
         aria-label="Social media links"
       >
         {socialIcons.map((icon, index) => (
@@ -402,13 +402,13 @@ export const Footer = (): JSX.Element => {
         ))}
       </nav>
 
-      <div className="absolute top-[5.052vw] left-[calc(50.00%_-_45.729vw)]">
+      <div className="absolute top-[8.98%] left-[calc(50.00%_-_45.729%)]">
         <Brochure className="origin-top-left scale-[0.8] 2xl:scale-100" />
       </div>
 
-      <div className="absolute top-[51.458vw] left-[calc(50.00%_+_31.823vw)] w-[17.5vw] h-[6.198vw]">
+      <div className="absolute top-[91.48%] left-[calc(50.00%_+_31.823%)] w-[17.5%] h-[11.02%]">
         <img
-          className="absolute top-0 left-0 w-[17.40vw] h-[6.20vw] select-none"
+          className="absolute top-0 left-0 w-[99.43%] h-[100%] select-none"
           alt="Made in collaboration with GDG NIT Silchar"
           draggable={false}
           src={group48096170}
